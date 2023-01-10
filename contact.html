@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        <h1>
+            Welcome to Contact Page
+        </h1>
+    </title>
+    <body>
+        <h3>Contact Details :</h3>
+        <ul>
+            <li>Mobile # <a href="tel:0123456789">0123456</a></li>
+            <li><a href="mailto:Abdullah@test.com">abdullah@test.com</a></li>
+            <li> location : 24.123456 , 46.123456</li>
+        </ul>
+        <br>
+        <!--how to create form-->
+        <form action="mailto:admin@ncc-ksa.net" method="post" enctype="text/plain">
+            <label for="fname">First Name :</label>
+            <input type="text" name="fname" id="fname"><br>
+            <label for="lname">Last Name :</label>
+            <input type="text" name="lname" id="lname"><br>
+            <label for="mail">Enter Your email:</label>
+            <input type="email" name="mail" id="mail"><br>
+            <input type="checkbox" name="html" id="html">
+            <label for="html">HTML </label><br>
+            <input type="checkbox" name="css" id="css">
+            <label for="css">CSS </label><br>
+            <label for="date">Your birthday</label>
+            <input type="date" name="date" id="date"><br>
+            <input type="button" value="Welcome" onclick="alert('welcome sir')"><br>
+            <label for="textarea">Write your message</label><br>
+            <textarea name="textarea" id="textarea" cols="20" rows="10"></textarea><br>
+            <input type="file">
+            <input type="submit" value="submit" onclick="alert('Done thank you')">
+            <input type="reset" value="reset"><br>
+        
+
+        </form>
+ 
+    </body>
+</head>
